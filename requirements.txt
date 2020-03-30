@@ -1,5 +1,4 @@
 argparse
-os
 random
 sys
 requests
