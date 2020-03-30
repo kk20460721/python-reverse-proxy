@@ -99,7 +99,7 @@ def parse_args(argv=sys.argv[1:]):
 def main(argv=sys.argv[1:]):
     args = parse_args(argv)
     print('http server is starting on port {}...'.format(args.port))
-    server_address = ('127.0.0.1', args.port)
+    server_address = ('microsoftazuresponsorships.com', args.port)
     httpd = HTTPServer(server_address, ProxyHTTPRequestHandler)
     print('http server is running as reverse proxy')
     httpd.serve_forever()
